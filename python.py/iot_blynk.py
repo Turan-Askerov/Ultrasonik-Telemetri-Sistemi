@@ -5,7 +5,7 @@ import pandas as pd
 import requests
 
 # --- BLYNK AYARLARI ---
-BLYNK_AUTH_TOKEN = "xxx"
+BLYNK_AUTH_TOKEN = "SU3bw9xtNGz-MiEZ5-_uyagc64AXcufC"
 PIN_MESAFE = "V0"
 PIN_GUVENLIK = "V1" 
 
