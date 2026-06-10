@@ -22,9 +22,9 @@ if not os.path.exists(CSV_FILE):
     df_init.to_csv(CSV_FILE, index=False)
 
 def durum_siniflandir(mesafe):
-    if mesafe >= 125: return 0  # Kapalı
+    if mesafe >= 120: return 0  # Kapalı
     elif mesafe < 75: return 1  # İnsan Geçişi
-    elif 110 <= mesafe < 125: return 2  # Tam Açık
+    elif 110 <= mesafe < 120: return 2  # Tam Açık
     elif 75 <= mesafe < 110: return 3  # Aralık
     return 0
 
